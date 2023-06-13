@@ -17,29 +17,9 @@
 // 14 even/odd
 // 15 fibonacci number
 
-// $arr = [1,5,5,2];
-// $str = 'level';
-// $int = 12345;
-
-$arr1 = [1,2,3,4];
-$arr2 = [5,6];
-
-$len1= count($arr1);
-$len2 = count($arr2);
-
-$len3 = ($len1 > $len2) ? $len1 : $len2;
 
 
-for($i = 0; $i < $len3; $i++){
-    if(isset($arr1[$i])){
-        $new [] = $arr1[$i];
-    }
 
-    if(isset($arr2[$i])){
-        $new[]= $arr2[$i];
-    }
-}
 
-print_r(implode(',',$new));
 
 ?>
